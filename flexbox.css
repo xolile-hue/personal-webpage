@@ -1,0 +1,145 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    background-image: url("https://theholyangelscarlow.files.wordpress.com/2015/07/colorful-background-7-cool-backgrounds.jpg");
+    background-size: cover;
+}
+.Intro {
+    background-image: url("https://triptourguide.com/wp-content/uploads/2019/11/table-mountain-south-africa.jpg");
+    height: 40ex;
+    border-radius: 5ex;
+    width: 75%;
+    margin: 0% 15% 0% 15%;
+}
+
+.myphoto {
+    width: 170px;
+    border-radius: 50%;
+    padding: 0% 35% 0%;
+    margin-bottom: 1em;
+}
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@media (min-width: 760px) {
+    .Intro {
+        display: flex;
+    }
+    .City {
+        display: flex;      
+    }
+    ol {
+        display: flex;
+        flex: 1;
+        margin: 1em;
+    }
+    .Hist {
+        display: flex;
+        flex: 1;     
+    }
+}
+h1{
+    text-align: start;
+    text-align: center; 
+}
+
+.CityImg {
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+table {
+border-collapse: collapse;
+width: 50%;
+}
+td  {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.img1 {
+    width: 50%;
+    border-radius: 10%;
+}
+.img2 {
+    width: 50%;
+    border-radius: 10%;
+    height: 50%;
+}
+.img3 {
+    width: 50%;
+    border-radius: 10%;
+    height: 50%;
+}
+.Places {
+    display: flex;
+    flex: 50%;
+    text-align: center;
+    width: 100%;
+}
+p {
+    border-radius: 10px;
+    width: 50%;
+    font-style: s;
+}
+.citypar {
+    text-align: center;
+    width: 50%;
+}
+.spanCity {
+    margin: 0% 10% 0%;
+    width: 25%;
+}
+
+li {
+        width: 100%;
+    }
+.Fav {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+}
+.subjectlist1{
+    margin: 0.5rem 2%;
+}
+h3 {
+    font-size: 1.375rem;
+  }
+.sizeHiv {
+    width: 96%;
+    margin: 0.5rem 2%;  
+  }
+.Hist {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;  
+}
+
+.Imgcol-4 {
+    width: 450px;
+}
+.Imgcol-5 {
+    width: 600px;
+}
+.Imgcol-6 {
+    width:600px;
+    height: 95%;
+}
+.Fav-Hist,
+.ForeignL1,
+.City1 {
+    margin: 0% 15% 0% 15%; 
+}
